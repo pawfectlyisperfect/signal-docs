@@ -1,0 +1,53 @@
+site_name: Signal
+site_description: Docs for the Signal Minecraft mod
+site_url: https://pawfectlyisperfect.github.io/signal-docs/
+repo_url: https://github.com/pawfectlyisperfect/signal-docs
+repo_name: signal-docs
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Roles & Permissions: roles-and-permissions.md
+  - Squads: squads.md
+  - Waypoints: waypoints.md
+  - War Tracking: war-tracking.md
+  - Comm Wheel: comm-wheel.md
+  - Chat: chat.md
+  - Notifications: notifications.md
+  - Settings: settings.md
+  - Relay Service (self-hosting): relay-service.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
