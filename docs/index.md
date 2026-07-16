@@ -15,9 +15,7 @@ Think of it like a lightweight in-game Discord for your group, plus a live map l
 
 ## Where to start
 
-If you're a player, start with [Getting Started](getting-started.md), then read [Squads](squads.md) and [Roles & Permissions](roles-and-permissions.md) to understand how a group is actually structured.
-
-If you're setting up the backend or want to know how the relay works, see [Relay Service](relay-service.md).
+Start with [Getting Started](getting-started.md), then read [Squads](squads.md) and [Roles & Permissions](roles-and-permissions.md) to understand how a group is actually structured.
 
 ## A note on how this is built
 

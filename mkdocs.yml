@@ -40,7 +40,6 @@ nav:
   - Chat: chat.md
   - Notifications: notifications.md
   - Settings: settings.md
-  - Relay Service (self-hosting): relay-service.md
 
 markdown_extensions:
   - admonition
