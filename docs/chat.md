@@ -21,3 +21,11 @@ Someone with full member management permissions can toggle chat oversight for th
 ## Notifications for chat
 
 Standout roles (Officer and above) pinging in chat can trigger a notification if you've got chat notifications turned on in Settings, using the same notification system as everything else in the mod rather than a separate toast.
+
+## Copying a message
+
+Shift + right-click a message to copy it to your clipboard, in either Signal's own Chat tab or vanilla Minecraft chat (while it's open). A "Copied" notification confirms it.
+
+In Signal's Chat tab, this grabs the exact message you clicked, sender name included, and reconstructs the full message even if it wrapped across multiple lines.
+
+In vanilla chat, it's a little different: the same shift + right-click works and pulls the exact line under your cursor (also stitching wrapped lines back into one message), but only while the chat log is actually open (press T or Enter first), since that's the only time your cursor is free to click anything at all.

@@ -6,7 +6,7 @@ Your personal settings live under **Other > Settings**, and everything in there 
 
 - **Squad HUD** - turn the persistent squad roster overlay on or off, and you can drag it to a custom position on screen instead of the default corner anchor.
 - **Squad glow** - the colored outline around teammates.
-- **Role icon labels** - the above-head role icon and name tag.
+- **Above-head rank icons** - the icon that floats over a teammate's head showing their role, plus the "Squad Leader" label for whoever's leading your squad. Off by default, turn it on if you want that at-a-glance read in the world instead of just checking the HUD or menu.
 - **Squad leader marker** - the long-range marker showing your squad leader's position/status. Comes with its own size slider so you can shrink or enlarge it separately from everything else.
 - **Comm wheel visibility** - hide pings from your view entirely if you don't want them cluttering your screen.
 - **Death waypoint visibility** - hide the skull markers that show up when a squad/linked-squad member dies.
